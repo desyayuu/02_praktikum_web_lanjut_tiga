@@ -16,4 +16,5 @@ class ProgramController extends Controller
     public function industri(){
         return 'Halaman kunjungan industri' ;
     }
+    
 }
