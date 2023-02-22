@@ -14,6 +14,7 @@ class ContactController extends Controller
     public function index()
     {
         //
+        echo "ini halaman contact us";
     }
 
     /**
@@ -35,6 +36,7 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         //
+        echo "ini post contact";
     }
 
     /**
@@ -46,7 +48,8 @@ class ContactController extends Controller
     public function show($id)
     {
         //
-        echo "ini halaman contact us";
+        echo "coba show";
+
     }
 
     /**
